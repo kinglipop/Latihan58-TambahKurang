@@ -12,6 +12,6 @@ package pbo11k.pkg10118904.latihan58.tambahkurang;
 public class JumlahBilangan extends Bilangan{
     public void tampilHasilJumlah() {
         int hasil = getX() + getY();
-        System.out.println("Hasil perjumlahan = "+hasil);
+        System.out.println("Hasil perjumlahan "+getX()+" + "+getY()+" = hasil");
     }
 }
